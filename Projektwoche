@@ -1,14 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Projektwoche</title>
-</head>
-<body style="margin:0; background:black;" onclick="document.getElementById('audio').play()">
-
-<audio id="audio">
-  <source src="Projektwoche.mp3" type="audio/mpeg">
+<audio controls>
+  <source src="Projektwoche.mp3" type="audio/mpeg" />
+  <source src="Projektwoche.ogg" type="audio/ogg" />
+  <p>
+    Download <a href="Projektwoche.mp3" download="Projektwoche.mp3">MP3</a> or
+    <a href="Projektwoche.ogg" download="Projektwoche.ogg">OGG</a> audio.
+  </p>
 </audio>
-
-</body>
-</html>
